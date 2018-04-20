@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinbinhua601/vuepress-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qinbinhua601/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/qinbinhua601/vuepress-blog#readme"
+}
