@@ -1,4 +1,7 @@
+var path = require('path')
+
 module.exports = {
+  base: '/vuepress-blog/',
   title: 'Welcome to My Blog',
   description: 'My Blog is focusing on Finance!',
   themeConfig: {
@@ -30,5 +33,12 @@ module.exports = {
         ]
       },
     ]
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'public': path.resolve(__dirname, './public')
+      }
+    }
   }
 }
