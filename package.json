@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/qinbinhua601/vuepress-blog/issues"
   },
-  "homepage": "https://github.com/qinbinhua601/vuepress-blog#readme"
+  "homepage": "https://github.com/qinbinhua601/vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress": "^0.7.0"
+  }
 }
