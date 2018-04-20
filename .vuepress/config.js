@@ -22,7 +22,8 @@ module.exports = {
         title: 'category2',
         collapsable: false,
         children: [
-          '/category2/1'
+          '/category2/1',
+          '/category2/2'
         ]
       },
       {
